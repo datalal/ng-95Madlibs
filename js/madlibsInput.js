@@ -2,13 +2,13 @@ var app = angular.module('myModule');
 
 app.controller("madlibsInput", function($scope, ourFactory, $location) {
 
-  $scope.grabInput = function(userInput) {
+    $scope.grabInput = function(userInput) {
 
-console.log(userInput);
+        console.log(userInput);
 
-ourFactory.sendInfo(userInput);
+        ourFactory.sendInfo(userInput);
 
-$location.path('/output');
+        $location.path('/output');
 
-  };
+    };
 });

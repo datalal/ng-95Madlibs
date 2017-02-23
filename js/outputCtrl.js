@@ -1,8 +1,8 @@
 var app = angular.module('myModule');
 
-app.controller('outputCtrl', function($scope, ourFactory){
+app.controller('outputCtrl', function($scope, ourFactory) {
 
-$scope.userInput = ourFactory.getInfo();
+    $scope.userInput = ourFactory.getInfo();
 
 
 });

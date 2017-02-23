@@ -1,22 +1,34 @@
-<div class="madlibsInputs">
-    <h3>Madlibs!</h3>
-    <h4>Rush Hour 3</h4>
-    <p>
-        <label><input class="madlibInputBox" type="number" ng-model="userInput.number1" placeholder="Enter Number" /> </label>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.occupation1" placeholder="Enter Occupation" /> </label>
-    </p>
-    <p>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.occupation2" placeholder="Enter Occupation" /> </label>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.place1" placeholder="Enter Place" /> </label>
-    </p>
-    <p>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.person1" placeholder="Enter Person(Male)" /> </label>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.place2" placeholder="Enter Place" /> </label>
-    </p>
-    <p>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.occupation3" placeholder="Enter Occupation" /> </label>
-        <label><input class="madlibInputBox" type="text" ng-model="userInput.bodyPart1" placeholder="Enter Body Part" /> </label>
-    </p>
+<div class="window">
+  <div class="windowBar"><div class="barText">{{programName}}</div><div class="xButton">X</div></div>
+  <div class="madlibsInputs">
+      <h3>Madlibs!</h3>
+      <h4>Rush Hour 3</h4>
+      <p>
+          <label><input class="madlibInputBox" type="number" ng-model="userInput.number1" placeholder="Enter Number" /> </label>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.occupation1" placeholder="Enter Occupation" /> </label>
+      </p>
+      <p>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.occupation2" placeholder="Enter Occupation" /> </label>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.place1" placeholder="Enter Place" /> </label>
+      </p>
+      <p>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.person1" placeholder="Enter Person(Male)" /> </label>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.place2" placeholder="Enter Place" /> </label>
+      </p>
+      <p>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.occupation3" placeholder="Enter Occupation" /> </label>
+          <label><input class="madlibInputBox" type="text" ng-model="userInput.bodyPart1" placeholder="Enter Body Part" /> </label>
+      </p>
 
-    <a ng-click="grabInput(userInput)" href="#/output">Submit</a>
+      <a ng-click="grabInput(userInput)" href="#/output">Submit</a>
+  </div>
+
+
+<p></p>
+<div class="textContainer">
+<div class="fakeText"></div>
+<p></p>
+<div class="fakeText2"></div>
+<p></p>
+</div>
 </div>

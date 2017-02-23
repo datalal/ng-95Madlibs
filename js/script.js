@@ -12,8 +12,8 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl: "views/dog.html"
         })
         .when("/dog2", {
-            controller: "inputCtrl",
-            templateUrl: "views/dog2.html"
+          redirectTo: "/"
+
         })
         .when("/hobbes", {
             controller: "inputCtrl",
@@ -36,7 +36,7 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl: "views/output.html"
         })
         .otherwise({
-            redirectTo: "/error"
+            redirectTo: "/"
         });
 
     $locationProvider.hashPrefix("");
