@@ -35,6 +35,10 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "outputCtrl",
             templateUrl: "views/output.html"
         })
+        .when("/todoList", {
+            controller: "myController",
+            templateUrl: "views/todoList.html"
+        })
         .otherwise({
             redirectTo: "/"
         });
