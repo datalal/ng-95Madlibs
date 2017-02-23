@@ -1,0 +1,154 @@
+body {
+    background-color: #008080
+}
+
+.navBar {
+    position: fixed;
+    bottom: 0px;
+    background-color: #C0C0C0;
+    font-family: monospace;
+    width: 100%;
+    height: 33px;
+    border-top: 1px solid white;
+    margin: 5px;
+    font-size: 150%;
+}
+
+.navLink {
+    color: black;
+    float: center;
+}
+
+.navLink:hover {
+    color: black;
+}
+
+.window {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    height: 420px;
+    width: 320px;
+    background-color: #c0c0c0;
+    text-align: center;
+    border: solid black 1px;
+}
+
+.windowBar {
+    font-family: monospace;
+    color: white;
+    padding-top: 5px;
+    background-color: #00007F;
+    width: 100%;
+    height: 20px;
+}
+
+.window img {
+    margin-top: 20px;
+    height: 300px;
+    width: 280px;
+    border: solid black 3px;
+}
+
+.textContainer {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.fakeText {
+    margin-left: 40px;
+    height: 7px;
+    width: 130px;
+    background-color: #909090;
+    overflow: hidden;
+}
+
+.fakeText2 {
+    margin-left: 40px;
+    height: 7px;
+    width: 240px;
+    background-color: #909090;
+    overflow: hidden;
+}
+
+.xButton {
+    float: right;
+    padding-right: 5px;
+}
+
+.barText {
+    padding-left: 5px;
+    float: left;
+}
+
+.startBlock {
+    float: left;
+    background-color: #666;
+    height: 28px;
+    width: 65px;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #333;
+}
+
+.icon {}
+
+.iconColumn {
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    font-family: monospace;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#clock {
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+    border: 1px solid #333;
+}
+
+.madlibInputBox {
+    border: 1px solid black;
+    padding-top: 3px;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+.madlibsInputs {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #666;
+    border: 2px solid black;
+    font-family: monospace;
+}
+
+.madlibsInputs a {
+    background-color: #333;
+    border: 2px solid black;
+    margin: 5px;
+    font-family: monospace;
+}
+
+b {
+    background-color: pink;
+    font-size: 110%;
+}
+
+.madlibInputBox {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #666;
+    #color: #333;
+}
