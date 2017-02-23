@@ -6,28 +6,37 @@ app.controller("inputCtrl", function($scope) {
     $scope.noun1 = "TEST";
     $scope.programName = "ng-photoViewer 3.1";
 
-    function loadMadlibs() {
 
-        $scope.programName = "ng-Madlibs 2.1";
-        console.log($scope.programName);
 
-    }
 
 });
 
+var today = new Date();
+var h = today.getHours();
+var ampmVal = "";
+
 function startTime() {
-    var today = new Date();
-    var h = today.getHours();
     var m = today.getMinutes();
     m = checkTime(m);
+    var newH = amPm(h);
     document.getElementById('clock').textContent =
-        h + ":" + m;
+        newH + ":" + m + "" + ampmVal;
     var t = setTimeout(startTime, 500);
 }
 
 function checkTime(i) {
     if (i < 10) {
         i = "0" + i
-    }; 
+    };
     return i;
+}
+
+function amPm(j) {
+    if (h < 12) {
+      ampmVal = "am";
+    } else {
+      ampmVal = "pm";
+      j -= 12;
+    };
+    return j;
 }

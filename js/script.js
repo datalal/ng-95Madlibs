@@ -27,6 +27,18 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "inputCtrl",
             templateUrl: "views/hobbes3.html"
         })
+        .when("/hobbes4", {
+            controller: "inputCtrl",
+            templateUrl: "views/hobbes4.html"
+        })
+        .when("/hobbes5", {
+            controller: "inputCtrl",
+            templateUrl: "views/hobbes5.html"
+        })
+        .when("/hobbes6", {
+            controller: "inputCtrl",
+            templateUrl: "views/hobbes6.html"
+        })
         .when("/madlibs", {
             controller: "madlibsInput",
             templateUrl: "views/madlibs.html"
