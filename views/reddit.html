@@ -1,0 +1,24 @@
+<div class="window">
+  <div class="windowBar"><div class="barText">{{programName}}</div><div class="xButton">X</div></div>
+<p></p>
+<div class="windowContent">
+<h2>AWWREDDITT</h2>
+<div class="inputBox">
+    <label>  Search: <input type="text" ng-model="searchFilter" /></label>
+    <p> </p>
+</div>
+  <div ng-repeat="key in arrayTest | filter:searchFilter track by $index">
+
+    <div class="redditBox">
+      <div class="imgTitle">    <img src="{{key.data.thumbnail}}"> <a href="{{key.data.permalink}}">{{key.data.title}}</a> ({{key.data.domain}})<br />
+</div>
+    <p>Submitted: {{key.data.created}} hours ago by {{key.data.author}} {{key.data.domain}}</p>
+Comments: {{key.data.num_comments}}
+</div>
+
+
+
+  </div>
+</div>
+
+</div>

@@ -14,11 +14,12 @@ app.controller("inputCtrl", function($scope) {
 var today = new Date();
 var h = today.getHours();
 var ampmVal = "";
+  var newH;
 
 function startTime() {
     var m = today.getMinutes();
     m = checkTime(m);
-    var newH = amPm(h);
+    newH = amPm(h);
     document.getElementById('clock').textContent =
         newH + ":" + m + "" + ampmVal;
     var t = setTimeout(startTime, 500);
@@ -32,11 +33,19 @@ function checkTime(i) {
 }
 
 function amPm(j) {
-    if (h < 12) {
-      ampmVal = "am";
+    if (j < 12) {
+        ampmVal = "am";
+    } else if (j > 12) {
+        ampmVal = "pm";
+        j -= 12;
     } else {
-      ampmVal = "pm";
-      j -= 12;
+        ampmVal = "pm";
     };
     return j;
+}
+
+function closeWindow(){
+
+console.log("CLOSED TEST");
+
 }

@@ -51,6 +51,10 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "myController",
             templateUrl: "views/todoList.html"
         })
+        .when("/reddit", {
+            controller: "redditCtrl",
+            templateUrl: "views/reddit.html"
+        })
         .otherwise({
             redirectTo: "/"
         });

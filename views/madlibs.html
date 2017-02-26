@@ -1,5 +1,5 @@
 <div class="window">
-  <div class="windowBar"><div class="barText">{{programName}}</div><div class="xButton">X</div></div>
+  <div class="windowBar"><div class="barText">{{programName}}</div><a ng-click="closeWindow()" class="xButton">X</a></div>
   <div class="madlibsInputs">
       <h3>Madlibs!</h3>
       <h4>Rush Hour 3</h4>
@@ -20,7 +20,7 @@
           <label><input class="madlibInputBox" type="text" ng-model="userInput.bodyPart1" placeholder="Enter Body Part" /> </label>
       </p>
 
-      <a ng-click="grabInput(userInput)" href="#/output">Submit</a>
+      <a class="madlibsSubmit" ng-click="grabInput(userInput)" href="#/output">Submit</a>
   </div>
 
 
