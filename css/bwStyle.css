@@ -1,0 +1,218 @@
+body {
+    background-color: #fff
+}
+
+.navBar {
+    position: fixed;
+    bottom: 0px;
+    background-color: #fff;
+    font-family: monospace;
+    width: 100%;
+    height: 33px;
+    border: 4px solid black;
+    margin: 3px;
+    margin-right: 5px;
+    font-size: 150%;
+}
+
+.navLink {
+    color: black;
+    float: center;
+}
+
+.navLink:hover {
+    color: black;
+}
+
+.window {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    height: 420px;
+    width: 320px;
+    background-color: #fff;
+    text-align: center;
+    border: solid black 3px;
+    overflow: auto;
+
+
+}
+.windowContent{
+
+
+}
+
+.windowBar {
+    font-family: monospace;
+    color: #fff;
+    padding-top: 5px;
+    background-color: #000;
+    width: 100%;
+    height: 20px;
+}
+
+.window img {
+    margin-top: 20px;
+    height: 300px;
+    width: 280px;
+    border: solid black 3px;
+}
+
+.textContainer {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.fakeText {
+    margin-left: 40px;
+    height: 7px;
+    width: 130px;
+    background-color: #909090;
+    overflow: hidden;
+}
+
+.fakeText2 {
+    margin-left: 40px;
+    height: 7px;
+    width: 240px;
+    background-color: #909090;
+    overflow: hidden;
+}
+
+.xButton {
+    float: right;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 2px;
+    color: black;
+    background-color: #909090;
+    font-size: 90%;
+    box-shadow: 2px 2px black, 2px 2px white;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+.barText {
+    padding-left: 5px;
+    float: left;
+}
+
+.startBlock {
+    float: left;
+    background-color: #666;
+    height: 25px;
+    width: 65px;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #333;
+    box-shadow: 2px 2px black, 2px 2px white;
+
+}
+
+.icon {}
+
+.iconColumn {
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+    color: black;
+}
+
+.iconColumn img{
+
+    filter: grayscale(100%) saturate(250%);
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#clock {
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+    border: 1px solid #333;
+    box-shadow: 2px 2px black, 2px 2px white;
+    font-size: 90%;
+    padding: 2px;
+
+
+}
+
+.madlibInputBox {
+    border: 1px solid black;
+    padding-top: 3px;
+    box-shadow: 2px 2px black, 2px 2px white;
+
+}
+
+h3 {
+    font-family: monospace;
+}
+
+.madlibsInputs {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: #666;
+    border: 2px solid black;
+    font-family: monospace;
+    box-shadow: 2px 2px black, 2px 2px white;
+
+}
+
+.madlibsInputs a {
+    background-color: #333;
+    border: 2px solid black;
+    margin: 5px;
+    font-family: monospace;
+}
+
+b {
+    background-color: pink;
+    font-size: 110%;
+}
+
+.madlibInputBox {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #666;
+    #color: #333;
+
+}
+
+.madlibsSubmit{
+
+}
+
+.redditBox{
+
+border: 1px solid #666;
+font-family: monospace;
+margin: 20px;
+width: 80%;
+
+
+}
+
+.redditBox a{
+font-size: 130%;
+text-decoration: none;
+
+}
+
+.redditBox img{
+margin: 5px;
+border: 1px solid #909090;
+height: 100px;
+width: 100px;
+
+}
