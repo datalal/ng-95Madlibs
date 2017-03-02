@@ -121,6 +121,11 @@ body {
     color: white;
 }
 
+.iconColumn img{
+width: 40px;
+
+}
+
 a {
     color: white;
     text-decoration: none;
