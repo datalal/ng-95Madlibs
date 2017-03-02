@@ -11,9 +11,9 @@ app.config(function($routeProvider, $locationProvider) {
             controller: "inputCtrl",
             templateUrl: "views/dog.html"
         })
-        .when("/dog2", {
-          redirectTo: "/"
-
+        .when("/fizzBuzz", {
+          controller: "fizzBuzzCtrl",
+          templateUrl: "views/fizzBuzz.html"
         })
         .when("/hobbes", {
             controller: "inputCtrl",
@@ -54,6 +54,10 @@ app.config(function($routeProvider, $locationProvider) {
         .when("/reddit", {
             controller: "redditCtrl",
             templateUrl: "views/reddit.html"
+        })
+        .when("/apiBrowser", {
+            controller: "kittenAPI",
+            templateUrl: "views/apiBrowser.html"
         })
         .otherwise({
             redirectTo: "/"

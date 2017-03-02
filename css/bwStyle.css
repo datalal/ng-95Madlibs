@@ -33,12 +33,14 @@ body {
     background-color: #fff;
     text-align: center;
     border: solid black 3px;
-    overflow: auto;
+    /*overflow: auto;*/
 
 
 }
 .windowContent{
-
+overflow: scroll;;
+position: absolute;
+height: 380px;
 
 }
 
@@ -123,7 +125,7 @@ body {
 }
 
 .iconColumn img{
-
+width: 30px;
     filter: grayscale(100%) saturate(250%);
 
 }
@@ -215,4 +217,23 @@ border: 1px solid #909090;
 height: 100px;
 width: 100px;
 
+}
+
+.catBrowser{
+  color: blue;
+  text-align: center;
+}
+.catBrowser img{
+
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+height: 150px;
+
+}
+
+#imgTest{
+
+  width: 100px;
+  height: 100px;
 }
